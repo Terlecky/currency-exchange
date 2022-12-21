@@ -2,7 +2,7 @@
 
 ## Demo
 
-terlecky.github.io/currency-exchange/
+https://terlecky.github.io/currency-exchange/
 
 ## Page previev
 
