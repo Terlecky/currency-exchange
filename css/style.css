@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(15, 97, 145);
+    background-size: auto;
+    font-size: 15px;
+    font-weight: 800;
+    background-blend-mode: lighten;
+}
