@@ -8,9 +8,10 @@ html {
 }
 
 .body {
-    background-color: rgb(15, 97, 145);
-    background-size: auto;
+    background-image:url(https://i.postimg.cc/x1tC8ryr/money-2387280-960-720.jpg) ;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-size: cover;
     font-size: 15px;
     font-weight: 800;
-    background-blend-mode: lighten;
 }
