@@ -12,13 +12,12 @@ terlecky.github.io/currency-exchange/
 This is simple currency converter.
 
 ## Technologies
-
--HTML
--CSS
--Javascript - ECMAScript 2020
--BEM convention
--Normalize.css
--Open Graph Protocol
+- HTML
+- CSS
+- Javascript - ECMAScript 2020
+- BEM convention
+- Normalize.css
+- Open Graph Protocol
 
 ## Code fragment
 
@@ -39,4 +38,3 @@ formElement.addEventListener("submit", (event) => {
         case "USD":
         rate = usdRate;
     }
-    ```
