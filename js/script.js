@@ -51,6 +51,8 @@ const init = () => {
     formElement.addEventListener("submit", onFormSubmit)
 }
 
+init();
+
 const updateResultText = () => {
     const resultElement = document.querySelector(".js-result")
 
