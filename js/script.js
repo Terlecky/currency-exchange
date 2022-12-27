@@ -37,13 +37,12 @@ const onFormSubmit = (event) => {
     event.preventDefault();
 
     const amountElement = document.querySelector(".js-amount")
-
     const currency = document.querySelector(".js-currency")
     const currencyResult = document.querySelector(".currencyResult")
-
     const amount = +amountElement.value
-
     const result = rate * amount;
+
+    calculateResult();
 }
 
 const init = () => {
