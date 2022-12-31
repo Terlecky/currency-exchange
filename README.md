@@ -28,13 +28,17 @@ formElement.addEventListener("submit", (event) => {
     let amount = +amountElement.value 
     let rate;
     
-    switch(currency.value){
+const getRate = (currency) => {
+    const eurRate = 0.21;
+    const gbpRate = 0.18;
+    const usdRate = 0.22;
+
+    switch (currency.value) {
         case "GBP":
-        rate = gbpRate;
-            break;
+            return gbpRate;
         case "EUR":
-        rate = eurRate;
-            break;
+            return eurRate;
         case "USD":
-        rate = usdRate;
+            return usdRate;
     }
+}
