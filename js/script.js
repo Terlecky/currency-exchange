@@ -22,14 +22,14 @@ const onFormSubmit = (event) => {
 
     const currency = document.querySelector(".js-currency")
     const resultElement = document.querySelector(".js-result")
-    resultElement.innerText = result.toFixed(2) + " " + currency.value;
+    resultElement.innerText = calculateResult(); + " " + currency.value;
 }
 
 
 const calculateResult = (currency) => {
     const amountElement = document.querySelector(".js-amount")
     const amount = +amountElement.value
-    const result = getRate(currency) * amount;
+    return getRate(currency) * amount;
 
 }
 
