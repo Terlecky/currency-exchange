@@ -22,12 +22,6 @@ This is simple currency converter.
 ## Code fragment
 
 ```
-formElement.addEventListener("submit", (event) => {
-    event.preventDefault();
-
-    let amount = +amountElement.value 
-    let rate;
-    
 const getRate = (currency) => {
     const eurRate = 0.21;
     const gbpRate = 0.18;
