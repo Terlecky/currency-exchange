@@ -29,7 +29,7 @@ const onFormSubmit = (event) => {
 }
 
 
-const calculateResult = () => {
+const calculateResult = (amount) => {
      getRate(currency) * amount;
 }
 
