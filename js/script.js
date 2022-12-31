@@ -16,6 +16,7 @@ const getRate = (currency) => {
 
 
 
+
 const onFormSubmit = (event) => {
     event.preventDefault();
 
@@ -29,7 +30,7 @@ const onFormSubmit = (event) => {
 
 
 const calculateResult = (amount) => {
-    const result = getRate(currency) * amount;
+    result = getRate(currency) * amount;
 }
 
 
