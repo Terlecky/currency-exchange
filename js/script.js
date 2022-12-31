@@ -22,7 +22,7 @@ const onFormSubmit = (event) => {
 
     const currency = document.querySelector(".js-currency")
     const resultElement = document.querySelector(".js-result")
-    resultElement.innerText = calculateResult(); + " " + currency.value;
+    resultElement.innerText = calculateResult(currency); + " " + currency.value;
 }
 
 
